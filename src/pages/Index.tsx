@@ -72,9 +72,21 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
-              <h1 className="font-heading text-2xl font-semibold">
-                КООПЕРАТИВ
-              </h1>
+              <div className="flex items-center space-x-3">
+                <img
+                  src="https://cdn.poehali.dev/files/6c1b185d-8f81-4600-8f26-93ae29b5cde3.jpg"
+                  alt="КАЙФ ОЗЕРО"
+                  className="h-12 w-12 object-contain"
+                />
+                <div className="flex flex-col">
+                  <h1 className="font-heading text-xl font-semibold leading-tight">
+                    КАЙФ
+                  </h1>
+                  <span className="font-heading text-sm tracking-[0.2em] text-muted-foreground">
+                    ОЗЕРО
+                  </span>
+                </div>
+              </div>
               <div className="hidden md:flex items-center space-x-6">
                 <a
                   href="#shares"
@@ -126,9 +138,9 @@ const Index = () => {
       <section className="relative py-24 bg-gradient-to-b from-background to-muted/30">
         <div className="container mx-auto px-6 text-center">
           <h2 className="font-heading text-5xl md:text-6xl font-light mb-6 tracking-tight">
-            Элитный
+            Потребительский Кооператив
             <br />
-            <span className="font-semibold">Инвестиционный Кооператив</span>
+            <span className="font-semibold">КАЙФ ОЗЕРО</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
             Эксклюзивные возможности инвестирования в недвижимость
@@ -318,7 +330,7 @@ const Index = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6 text-center">
           <h3 className="font-heading text-4xl font-light mb-6">
-            Готовы присоединиться к элите?
+            Готовы присоединиться к кооперативу?
           </h3>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             Получите персональную консультацию и узнайте о возможностях
@@ -342,12 +354,23 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h4 className="font-heading text-lg font-semibold mb-4">
-                КООПЕРАТИВ
-              </h4>
+              <div className="flex items-center space-x-3 mb-4">
+                <img
+                  src="https://cdn.poehali.dev/files/6c1b185d-8f81-4600-8f26-93ae29b5cde3.jpg"
+                  alt="КАЙФ ОЗЕРО"
+                  className="h-8 w-8 object-contain"
+                />
+                <div className="flex flex-col">
+                  <h4 className="font-heading text-lg font-semibold leading-tight">
+                    КАЙФ
+                  </h4>
+                  <span className="font-heading text-xs tracking-[0.15em] text-muted-foreground">
+                    ОЗЕРО
+                  </span>
+                </div>
+              </div>
               <p className="text-sm text-muted-foreground">
-                Эксклюзивные инвестиционные возможности для избранного круга
-                участников
+                Потребительский кооператив премиум-класса для особенных людей
               </p>
             </div>
             <div>
@@ -404,14 +427,17 @@ const Index = () => {
               <h5 className="font-medium mb-4">Контакты</h5>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>+7 (495) 123-45-67</li>
-                <li>info@cooperative.ru</li>
+                <li>info@kaifozero.ru</li>
                 <li>Москва, Тверская 1</li>
               </ul>
             </div>
           </div>
           <Separator className="my-8" />
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Элитный Кооператив. Все права защищены.</p>
+            <p>
+              &copy; 2024 Потребительский Кооператив "КАЙФ ОЗЕРО". Все права
+              защищены.
+            </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-foreground">
                 Политика конфиденциальности
